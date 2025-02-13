@@ -75,10 +75,10 @@ void main_loop()
             }
         }
 
-        players[1]->x += 1;
-        if (players[1]->x >= MAP_SIZE)
+        players[0]->x += 1;
+        if (players[0]->x >= MAP_SIZE)
         {
-            players[1]->x = 0;
+            players[0]->x = 0;
         }
 
         world_paint_spot(players[0]->x, players[0]->y, 1); // 1 for player1 <-> idx 0
