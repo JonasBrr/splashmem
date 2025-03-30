@@ -1,8 +1,9 @@
+//PINK PLAYER
 #include "actions.h"
 #include <stdio.h>
-#define MAX_PLAY_ACTION 1
+#define MAX_PLAY_ACTION 7
 
-char play_actions[] = {ACTION_STILL};
+char play_actions[] = {ACTION_BOMB, ACTION_DASH_U, ACTION_SPLASH, ACTION_DASH_L, ACTION_BOMB, ACTION_TELEPORT_R, ACTION_DASH_R};
 
 char get_action()
 {

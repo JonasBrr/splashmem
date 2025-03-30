@@ -7,7 +7,7 @@
 #define SQUARE_SIZE 10
 #define WIN_SIZE MAP_SIZE* SQUARE_SIZE
 
-#define P_CREDITS 9000
+#define P_CREDITS 90000
 #define BOMB_COUNTER 5
 
 #endif
